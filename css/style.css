@@ -29,6 +29,10 @@ li{
     width: 66vw;
     margin: 0 auto;
 }
+.small-container{
+    width: 50vw;
+    margin: 0 auto;
+}
 .small-box{
     width: 40vw;
 }
@@ -61,6 +65,8 @@ header.row-flex ul.row-flex li button{
 /* ------- */
 
 /* Main */
+
+/* Sezione 1 */
 .jumbotron{
     background-color: #b4d0e7;
     padding-top: 105px;
@@ -84,4 +90,29 @@ header.row-flex ul.row-flex li button{
 #down-arrow{
     font-size: 45px;
     margin-top: 80px;
+}
+/* ------- */
+
+/* Sezione 2 */
+section.small-container h2{
+    margin-top: 165px;
+}
+[type="radio"]{
+    margin: 75px 0  55px 0;
+}
+.mese , .anno{
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 16px;
+
+}
+.small-container.section-1 .row-flex {
+    margin: 0 -50px;
+}
+.box{
+    width: calc(100vw/3);
+    background-color: red;
+    border: 1px dashed black;
+    height: 700px;
+    margin: 0 50px ;
 }
