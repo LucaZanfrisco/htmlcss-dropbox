@@ -8,7 +8,7 @@
 /* ------- */
 
 /* Common */
-.flex{
+.row-flex{
     display: flex;
 }
 
@@ -22,25 +22,66 @@ li{
 .btn-prime{
     background-color: #0061ff;
     color: white;
+    padding: 15px 15px;
+    font-size: 16px;
 }
+.big-container{
+    width: 66vw;
+    margin: 0 auto;
+}
+.small-box{
+    width: 40vw;
+}
+.big-box{
+    width: 60vw;
+}
+.text{
+    padding: 0 35px 35px 0;
+}
+
 /* ------- */
 
 /* Header */
-header.flex{
+header.row-flex{
     justify-content: space-between;
     height: 80px;
     padding: 0 20px;
 }
-header.flex ul.flex{
+header.row-flex ul.row-flex{
     align-items: center;
 }
-header.flex ul.flex li a{
+header.row-flex ul.row-flex li a{
     text-decoration: none;
     color: black;
     margin: 0 20px;
 }
-header.flex ul.flex li button{
+header.row-flex ul.row-flex li button{
     padding: 10px 15px;
-    font-size: 16px;
 }
 /* ------- */
+
+/* Main */
+.jumbotron{
+    background-color: #b4d0e7;
+    padding-top: 105px;
+    /* height: 738px; */
+}
+.jumbotron .big-container .row-flex{
+    position: relative;
+    top: 70px;
+    justify-content: flex-start;
+}
+.jumbotron .big-container h1{
+    font-size: 90px;
+    /* margin-bottom: 70px; */
+}
+.jumbotron .big-container .row-flex .big-box img{
+    width: 100%;
+}
+.jumbotron .big-container .row-flex .small-box .btn-prime{
+    margin-bottom: 37px;
+}
+#down-arrow{
+    font-size: 45px;
+    margin-top: 80px;
+}
