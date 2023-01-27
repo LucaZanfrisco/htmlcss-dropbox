@@ -42,6 +42,23 @@ li{
 .text{
     padding: 0 35px 35px 0;
 }
+.box{
+    width: calc(100vw/3);
+    /* background-color: red; */
+    border: 1px solid #d0d0d3;
+    margin: 0 25px ;
+}
+.profilo{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 13px 0;
+}
+.info{
+    padding: 0 32px;
+}
+.costo{
+    margin-bottom: 57px;
+}
 
 /* ------- */
 
@@ -104,15 +121,33 @@ section.small-container h2{
     display: inline-block;
     margin-right: 45px;
     font-size: 16px;
-
 }
 .small-container.section-1 .row-flex {
-    margin: 0 -50px;
+    margin: 0 -25px;
 }
-.box{
-    width: calc(100vw/3);
-    background-color: red;
-    border: 1px dashed black;
-    height: 700px;
-    margin: 0 50px ;
+
+.costo li:first-child{
+    margin: 44px 0 27px;
+    font-size: 25px;
+}
+.prezzo{
+    margin-bottom: 20px;
+}
+.small-container.section-1 .row-flex .info ul.info-text li{
+    margin-bottom: 26px;
+}
+.info button{
+    font-size: 12px;
+    padding: 15px 35px;
+    margin: 55px 0 35px;
+}
+hr{
+    width: 20%;
+    margin: 45px 0 55px;
+}
+.highlights h4{
+    margin-bottom: 40px;
+}
+.highlights li:not(:first-child){
+    margin-bottom: 30px;
 }
