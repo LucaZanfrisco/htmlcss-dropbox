@@ -3,8 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+/* ------- */
+
+/* Common */
+.flex{
+    display: flex;
 }
 
-body{
-    background-color: pink;
+li{
+    list-style: none;
 }
+.btn{
+    background-color: transparent;
+    border: none;
+}
+.btn-prime{
+    background-color: #0061ff;
+    color: white;
+}
+/* ------- */
+
+/* Header */
+header.flex{
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+}
+header.flex ul.flex{
+    align-items: center;
+}
+header.flex ul.flex li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+header.flex ul.flex li button{
+    padding: 10px 15px;
+    font-size: 16px;
+}
+/* ------- */
