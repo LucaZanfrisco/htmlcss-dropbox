@@ -209,8 +209,6 @@ hr{
 /* ------- */
 
 /* Sezione 3 */
-/* .section-3 .small-container .row-flex{
-} */
 .section-3 .small-container .row-flex img{
     width: 100%;
 }
@@ -224,4 +222,27 @@ hr{
     margin-bottom: 30px;
     line-height: 1.5em;
     font-size: 25px;
+}
+/* ------- */
+
+/* Sezione 4 */
+#section-4{
+    margin-top: 215px;
+}
+#section-4 .mini-box{
+    max-width: 75%;
+}
+#section-4 .mini-box a{
+    display: block;
+    margin-top: 78px;
+    color: #0000f1;
+}
+/* ------- */
+
+/* Sezione 5 */
+#section-5{
+    margin: 160px 0;
+}
+#section-5 .row-flex{
+    background-color: #f5f5f5;
 }
