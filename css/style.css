@@ -112,6 +112,10 @@ header.row-flex ul.row-flex li button{
     font-size: 45px;
     margin-top: 80px;
 }
+hr{
+    width: 20%;
+    margin: 45px 0 55px;
+}
 /* ------- */
 
 /* Sezione 1 */
@@ -154,10 +158,7 @@ section.small-container h2{
     padding: 15px 35px;
     margin: 55px 0 35px;
 }
-hr{
-    width: 20%;
-    margin: 45px 0 55px;
-}
+
 .highlights h4{
     margin-bottom: 40px;
 }
@@ -359,5 +360,39 @@ hr{
 }
 .question i{
     margin-left: 286px;
+}
+/* ------- */
+
+/* Footer */
+footer{
+    background-color: #000;
+    color: white;
+}
+footer hr{
+    margin: 0;
+    padding: 0;
+    width: 10%;
+}
+footer .row-flex{
+    justify-content: space-between;
+    padding: 110px 0;
+}
+footer .row-flex li h4{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+footer .row-flex li ul li a{
+    display: block;
+    padding: 11px 0;
+    text-decoration: none;
+    color: inherit;
+}
+.language{
+    padding: 54px 0;
+    color: #999999;
+}
+.fa-globe{
+    font-size: 20px;
+    margin-right: 10px;
 }
 /* ------- */
