@@ -266,8 +266,6 @@ hr{
     position: relative;
 }
 .box-color img{
-    width: 100%;
-    display: block;
     /* position: absolute;
     top: 50%;
     right: 50%;
@@ -341,3 +339,25 @@ hr{
     padding: 17px 50px;
     font-size: 16px;
 }
+/* ------- */
+
+/* Sezione 6 */
+#section-6{
+    margin-bottom: 152px;
+}
+#section-6 .small-container h4{
+    font-size: 40px;
+    margin-bottom: 72px;
+}
+.question{
+    padding: 47px 0;
+    border-top: 1px solid #999999;
+    font-weight: bold;
+}
+.question:last-child{
+    border-bottom: 1px solid #999999;
+}
+.question i{
+    margin-left: 286px;
+}
+/* ------- */
