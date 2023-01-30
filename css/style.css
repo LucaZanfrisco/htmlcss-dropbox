@@ -63,6 +63,18 @@ p{
 }
 /* ------- */
 
+/* Animation */
+.border:hover{
+    border-bottom: 1px solid green;
+}
+footer .big-container .row-flex li a:hover{
+    border-bottom: 2px solid white;
+}
+.question:hover .answers{
+    display: block;
+}
+
+/* ------- */
 /* Header */
 header.row-flex{
     justify-content: space-between;
@@ -76,7 +88,7 @@ header.row-flex{
     z-index: 1;
 }
 header.row-flex ul.row-flex{
-    align-items: center;
+    line-height: 80px;
 }
 header.row-flex ul.row-flex li a{
     text-decoration: none;
@@ -86,6 +98,7 @@ header.row-flex ul.row-flex li a{
 header.row-flex ul.row-flex li button{
     padding: 10px 15px;
 }
+
 /* ------- */
 
 /* Main */
@@ -155,6 +168,7 @@ section.small-container h2{
 }
 .small-container.section-1 .row-flex .info ul.info-text li{
     margin-bottom: 26px;
+    font-size: 14px;
 }
 .small-container.section-1 .row-flex .info ul.info-text li i{
     margin-right: 5px;
@@ -163,6 +177,9 @@ section.small-container h2{
     font-size: 12px;
     padding: 15px 35px;
     margin: 55px 0 35px;
+}
+.info .btn-buy .contact{
+    padding: 15px 80px;
 }
 
 .highlights h4{
@@ -361,11 +378,16 @@ section.small-container h2{
     border-top: 1px solid #999999;
     font-weight: bold;
 }
-.question:last-child{
+.question:last-of-type{
     border-bottom: 1px solid #999999;
 }
 .question i{
     margin-left: 286px;
+}
+.answers{
+    display: none;
+    margin-top: 50px;
+    font-weight: normal;
 }
 /* ------- */
 
