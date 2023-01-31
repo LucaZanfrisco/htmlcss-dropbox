@@ -164,7 +164,7 @@ section.small-container h2{
     margin: 75px 0  55px;
     margin-right: 5px;
 }
-/* input[type="radio"]::after{
+input[type="radio"]::after{
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -181,7 +181,7 @@ input[type="radio"]:checked::after{
     width: 10px;
     height: 10px;
     border: 5px solid #0061ff;
-} */
+}
 .mese , .anno{
     display: inline-block;
     margin-right: 45px;
