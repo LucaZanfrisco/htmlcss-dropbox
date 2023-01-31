@@ -8,7 +8,8 @@
 
 /* Common */
 body{
-    font-family: 'Raleway', sans-serif; 
+    /* font-family: 'Raleway', sans-serif;  */
+    font-family: 'Open Sans', sans-serif;
 }
 .row-flex{
     display: flex;
@@ -126,6 +127,13 @@ main{
     top: 70px;
     justify-content: flex-start;
 }
+.jumbotron .big-container .row-flex .small-box{
+    width: 30%;
+    position: relative;
+}
+.jumbotron .big-container .row-flex .big-box{
+    width: 70%;
+}
 .jumbotron .big-container h1{
     font-size: 90px;
 }
@@ -136,8 +144,10 @@ main{
     margin-bottom: 37px;
 }
 #down-arrow{
+    position: absolute;
+    bottom: 75px;
+    left: 0;
     font-size: 45px;
-    margin-top: 50px;
 }
 hr{
     width: 20%;
@@ -188,7 +198,6 @@ section.small-container h2{
 .info .btn-buy .contact{
     padding: 15px 80px;
 }
-
 .highlights h4{
     margin-bottom: 40px;
 }
