@@ -71,7 +71,7 @@ p{
     border-bottom: 1px solid green;
 }
 footer .big-container .row-flex li a:hover{
-    border-bottom: 2px solid white;
+    text-decoration: 2px underline white;
 }
 .question:hover .answers{
     display: block;
@@ -135,7 +135,7 @@ main{
     width: 70%;
 }
 .jumbotron .big-container h1{
-    font-size: 90px;
+    font-size: 77px;
 }
 .jumbotron .big-container .row-flex .big-box img{
     max-width: 100%;
@@ -162,7 +162,26 @@ section.small-container h2{
 }
 [type="radio"]{
     margin: 75px 0  55px;
+    margin-right: 5px;
 }
+/* input[type="radio"]::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: -3px;
+    left: -5px;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #d0d0d3;
+} 
+input[type="radio"]:checked::after{
+    width: 10px;
+    height: 10px;
+    border: 5px solid #0061ff;
+} */
 .mese , .anno{
     display: inline-block;
     margin-right: 45px;
