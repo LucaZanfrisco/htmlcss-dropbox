@@ -2,12 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;   
 }
 /* ------- */
 
 /* Common */
+body{
+    font-family: 'Raleway', sans-serif; 
+}
 .row-flex{
     display: flex;
 }
@@ -28,24 +30,24 @@ li{
     border: 1px solid #000;
 }
 .big-container{
-    width: 66vw;
+    max-width: 1190px;
     margin: 0 auto;
 }
 .small-container{
-    width: 50vw;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .small-box{
-    width: 40vw;
+    width: 40%;
 }
 .big-box{
-    width: 60vw;
+    width: 60%;
 }
 .text{
     padding: 0 35px 35px 0;
 }
-.box{
-    margin: 0 25px;
+.box-30{
+    width: 30%;
 }
 .profilo{
     text-align: center;
@@ -73,8 +75,16 @@ footer .big-container .row-flex li a:hover{
 .question:hover .answers{
     display: block;
 }
-
+.question:hover .fa-chevron-down{
+    transform: rotate(180deg);
+}
+.btn-prime:hover{
+    background-color: black;
+    border: 1px solid white;
+    filter: invert(1);
+}
 /* ------- */
+
 /* Header */
 header.row-flex{
     justify-content: space-between;
@@ -110,7 +120,6 @@ main{
 .jumbotron{
     background-color: #b4d0e7;
     padding-top: 105px;
-    /* height: 738px; */
 }
 .jumbotron .big-container .row-flex{
     position: relative;
@@ -119,17 +128,16 @@ main{
 }
 .jumbotron .big-container h1{
     font-size: 90px;
-    /* margin-bottom: 70px; */
 }
 .jumbotron .big-container .row-flex .big-box img{
-    width: 100%;
+    max-width: 100%;
 }
 .jumbotron .big-container .row-flex .small-box .btn-prime{
     margin-bottom: 37px;
 }
 #down-arrow{
     font-size: 45px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 hr{
     width: 20%;
@@ -150,12 +158,11 @@ section.small-container h2{
     margin-right: 45px;
     font-size: 16px;
 }
-.small-container.section-1 .row-flex.abbonamento .box{
-    width: calc(100vw/3);
+.small-container.section-1 .row-flex.abbonamento .box-30{
     border: 1px solid #d0d0d3;
 }
 .small-container.section-1 .row-flex.abbonamento {
-    margin: 0 -25px;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 .costo li:first-child{
@@ -168,13 +175,13 @@ section.small-container h2{
 }
 .small-container.section-1 .row-flex .info ul.info-text li{
     margin-bottom: 26px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .small-container.section-1 .row-flex .info ul.info-text li i{
     margin-right: 5px;
 }
 .info .btn-buy button{
-    font-size: 12px;
+    font-size: 14px;
     padding: 15px 35px;
     margin: 55px 0 35px;
 }
@@ -192,6 +199,8 @@ section.small-container h2{
     color: blue;
     margin-right: 5px;
 }
+
+/* Container orizzantale */
 .box-col{
     border: 1px solid #d0d0d3;
 }
@@ -240,7 +249,8 @@ section.small-container h2{
     width: 100%;
 }
 .section-3 .small-container .row-flex{
-    margin: 0 -25px 70px;
+    justify-content: space-between;
+    margin-bottom: 70px;
 }
 .section-3 .small-container .row-flex div{
     margin: 0 25px;
@@ -249,6 +259,10 @@ section.small-container h2{
     margin-bottom: 30px;
     line-height: 1.5em;
     font-size: 25px;
+}
+.section-3 .small-container h2{
+    font-size: 40px;
+    margin-bottom: 80px;
 }
 /* ------- */
 
@@ -272,14 +286,10 @@ section.small-container h2{
 }
 #section-5 > .row-flex{
     background-color: #f5f5f5;
-    height: 640px;
 }
 .box-color-3{
-   flex-basis: calc(100%/3); 
-}
-.box-color-3 img{
-    width: 100%;
-    display: block;
+   width: calc(100%/3); 
+   height: calc(100vw/3);
 }
 #left, #right{
     flex-wrap: wrap;
@@ -290,13 +300,15 @@ section.small-container h2{
     position: relative;
 }
 .box-color img{
-    /* position: absolute;
+    position: absolute;
     top: 50%;
-    right: 50%;
-    transform: translate(-50%,-50%); */
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,-50%);
 }
 .center{
     padding: 50px;
+    overflow-y: auto;
 }
 .center img{
     width: 50%;
@@ -311,35 +323,29 @@ section.small-container h2{
 }
 #color-2{
     background-color: #a2d39b;
-    padding: 122px 72px;
+    width: 100%;
+    height: 100%;
 }
 #color-3{
     background-color: #61082b;
-    padding: 100px 80px;
 }
 #color-4{
     background-color: #0093ce;
-    padding: 145px 78px;
 }
 #color-5{
     background-color: #ff1c1c;
-    padding: 121px 80px;
 }
 #color-6{
     background-color: #d5001f;
-    padding: 133px 76px;
 }
 #color-7{
     background-color: #b4d0e7;
-    padding: 155px 78px;
 }
 #color-8{
     background-color: #0d2481;
-    padding: 119px 79px;
 }
 #color-9{
     background-color: #ffd830;
-    padding: 106px 80px;
 }
 .orizzontale{
     background-color: #b4d0e7;
@@ -411,7 +417,7 @@ footer .row-flex li h4{
 }
 footer .row-flex li ul li a{
     display: block;
-    padding: 11px 0;
+    margin: 22px 0;
     text-decoration: none;
     color: inherit;
 }
