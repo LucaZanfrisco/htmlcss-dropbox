@@ -164,20 +164,20 @@ section.small-container h2{
     margin: 75px 0  55px;
     margin-right: 5px;
 }
-input[type="radio"]::after{
+input[type="radio"]::before{
     width: 15px;
     height: 15px;
-    border-radius: 15px;
+    border-radius: 50%;
     position: relative;
-    top: -3px;
-    left: -5px;
+    bottom: 3px;
+    right: 5px;
     background-color: #ffffff;
     content: '';
-    display: inline-block;
+    display: block;
     visibility: visible;
-    border: 2px solid #d0d0d3;
+    border: 3px solid #d0d0d3;
 } 
-input[type="radio"]:checked::after{
+input[type="radio"]:checked::before{
     width: 10px;
     height: 10px;
     border: 5px solid #0061ff;
